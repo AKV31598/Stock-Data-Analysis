@@ -43,7 +43,7 @@ st_lottie(
 )
 
 
-st.header("Select assest to Compare ")
+st.header("Select asset to Compare ")
 dropdown = st.multiselect( ' Select assets to Compare',tickers)
 st.header('Select Specific Dates')
 start = st.date_input('Start Date',value = pd.to_datetime('2021-01-01'))
